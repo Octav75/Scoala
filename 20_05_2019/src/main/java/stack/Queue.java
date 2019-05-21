@@ -9,6 +9,8 @@ public class Queue {
         queue = new int[capacity];
     }
 
-    
+    public String toString(){
+        queue 
+    }
 
 }
