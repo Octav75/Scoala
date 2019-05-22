@@ -29,6 +29,11 @@ public class Queue {
         }
     }
 
+    public int dequeue(){
+        int value = - 66;
+        if ()
+    }
+
 
     public String toString() { return "Front = " + front + "Back = " + back + }
 }

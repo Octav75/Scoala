@@ -34,5 +34,7 @@ public class StackTest {
         Assert.assertTrue(s.isEmpty());
         s.push(5);
     }
+
+
 }
 
