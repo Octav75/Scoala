@@ -1,13 +1,15 @@
-package readingWriting;
-
-//import java.io.File;
-//import java.io.IOException;
-//import java.nio.file.Files;
-//import java.nio.file.Path;
-//import java.nio.file.Paths;
-//import java.util.List;
+//package readingWriting;
 //
-//public class CitireSiScriere {
+//import java.io.File;
+//        import java.io.IOException;
+//        import java.nio.file.Files;
+//        import java.nio.file.Path;
+//        import java.nio.file.Paths;
+//        import java.util.List;
+//
+//public static void main(String[]args){
+//
+//
 //    Path absolutePath = Paths.get("C:/input/a.txt");
 //    List<String> fileLines = Files.readAllLines(Paths.get("C:/input/a.txt"));
 //
@@ -22,9 +24,5 @@ package readingWriting;
 //
 //
 //    File absoluteFile = new File("C:/output/b.txt");
+//
 //}
-
-public static void main(String[]args){
-    Path absolutePath = Paths.get("C:/input/a.txt");
-    List<String> fileLines = Files.readAllLines(Paths.get("C:/input/a.txt"));
-        }
