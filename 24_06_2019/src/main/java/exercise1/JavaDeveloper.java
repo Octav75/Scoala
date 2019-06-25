@@ -6,5 +6,6 @@ public class JavaDeveloper extends Developer {
 
     public JavaDeveloper(String name, int age) {
         super(name, age);
+        System.out.println("It is ok!");
     }
 }

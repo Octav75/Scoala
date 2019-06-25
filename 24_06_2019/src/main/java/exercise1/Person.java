@@ -7,11 +7,9 @@ public class Person {
     public Person (String name, int age){
         this.name = name;
         this.age = age;
+        System.out.println("I am happy!");
     }
 
-    public Person() {
-        return;
-    }
 
     public String getName() {
         return name;

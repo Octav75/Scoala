@@ -9,20 +9,20 @@ public class Developer extends Person {
         System.out.println("I am a new developer!");
     }
 
+
     enum CodingLanguage {
         JAVA,
         C,
         Python
     }
 
-    public Developer(CodingLanguage codingLanguage) {
-        super();
-        this.codingLanguage = codingLanguage;}
+    /*public Developer(CodingLanguage codingLanguage) {
+                this.codingLanguage = codingLanguage;}*/
     protected void code (){
         System.out.println("I'm happy coding!");
     }
 
-    public boolean knowsC(){
-        return codingLanguage.equals(CodingLanguage.C);
+    public boolean knows(){
+        return codingLanguage.equals(CodingLanguage.JAVA);
     }
 }
