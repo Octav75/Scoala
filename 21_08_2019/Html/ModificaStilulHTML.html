@@ -1,0 +1,38 @@
+<HTML>
+	<HEAD>
+	<meta charset="utf-8">
+	<script src="Interschimbare.js"></script>
+	</HEAD>
+	
+	<BODY>
+		<form>
+			<label for="nume"> Nume: </label>
+			<input type="text" id="nume" style="background: yellow; color: blue;">
+			
+			<input type="checkbox" id="ckeck" onclick="if(this.checked){modificaStilul()}">
+			<input type="button" id="alerta" value="Alerteaza" onclick="alert('Aceasta pagina este o alerta!');">
+			<br>
+			
+			Element 1:<input type="number" id="operand1">
+			<br>
+			Element 2:<input type="number" id="operand2">
+			<br>
+			<input type="button" id="schimb" value="Interschimbata" onclick="interschimbare();">
+			
+		</form>
+		
+		Element 1:<p id="aDupaSchimbare"></p>
+		Element 2:<p id="bDupaSchimbare"></p>
+		
+		<script>
+			function modificaStilul(){
+				var element=document.getElementById("nume");
+				
+				element.style.background="blue";
+				element.style.color="white";
+				
+				element.value=element.value.toUpperCase();
+			}
+		</script>
+	</BODY>
+</HTML>

@@ -1,0 +1,61 @@
+<html>
+
+	<head>
+
+	<title>Eveniment!!!</title>
+
+
+	<style>
+
+	p{
+
+	     font-size:50px;
+	     position: fixed;
+
+	}
+
+	</style>
+
+	</head>
+
+	<body  onload="trigger();">
+
+	
+	<form>
+	<input type="button" id="buton" value="Test">
+	</form>
+	<p id="hover">Welcome!!!</p>
+	
+	
+	<script type="text/javascript">
+
+	function trigger(){
+
+		document.getElementById("hover").addEventListener("mouseover", popup);
+		document.getElementById("buton").addEventListener("click", clickEvent);
+
+		window.addEventListener("resize", random);
+		
+		
+
+	}
+	
+	function popup(){
+
+			alert("Welcome to my WebPage!!!");
+		}
+		
+	function random(){
+
+		document.getElementById("hover").innerHTML=Math.random();
+	}
+		
+	function clickEvent(){
+		document.getElementById("hover").innerHTML="Ati executat click";
+	}
+
+	</script>
+
+	</body>
+
+	</html>

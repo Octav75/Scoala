@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<HTML>
+	<HEAD>
+		<title> Exemple de JavaScript</title>
+		
+		<meta charset="utf-8">
+		
+		<script>
+			var text1="abc"; // variabile globale;
+			var text2='abc';
+			
+			var number1= 123;
+			var number2=5.01234;
+			
+			var boolean1=true;
+			var boolean2=false;
+			
+			console.log(text1);
+			console.log(text2);
+			console.log(number1);
+			console.log(number2);
+			console.log(boolean1);
+			console.log(boolean2);
+			console.log("Acesta este un mesaj!");
+			
+			console.log(1+20);
+			console.log(text1+text2);
+			console.log(number1+number2);
+			console.log(30 %2);
+			console.log(boolean1 && boolean2);
+			console.log("---------------");
+			console.log(5 == 5); // compara campurile
+			console.log("5" == 5); // face cast string to integer
+			console.log("5" === 5); // nu sunt egale caci un string nu este egal cu un integer.
+			
+			var array = [1,4,7];
+			console.log(array[2]);
+			console.log(array.length);
+			array.push(9) // adaug un element (9) la array.
+			console.log(array[3]);
+			
+			var object = {
+				nume: "Andrei",
+				varsta: 100,
+				prezent: true,
+				
+				schimbaNume: function(noulNume){
+					this.nume=noulNume;
+				}
+			}
+			
+			console.log("Vechiul nume: " + object.nume);
+			object.schimbaNume("Florian");
+			console.log("Noul nume: " + object.nume);
+			
+			// creearea de functii in JS.
+			function adunare (a, b){
+				var c; // variabila locala la nivelul functiei;
+				c=a+b;
+				return c;
+			}
+			
+			scadere = function(a,b){
+				return a-b;
+			}
+			console.log ("Rezultatul adunarii: "+adunare(5,7));
+			console.log ("Rezultatul scaderii: "+scadere(7,5));
+			
+		</script>
+	</HEAD>
+	
+	<BODY>
+	
+	</BODY>
+	
+</HTML>

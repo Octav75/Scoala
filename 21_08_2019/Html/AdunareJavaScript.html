@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<HTML>
+​
+	<HEAD>
+​
+	
+	
+	</HEAD>
+	
+	<BODY>
+		<form>
+			
+			Operand 1: <input type="number" id="operand1">
+			<br>
+			Operand 2: <input type="number" id="operand2">
+			<br>
+			<input type="button" id="valid" value="Aduna" onclick="aduna();">
+			<br>
+			<input type="button" id="valid" value="Multiply" onclick="multiply();">
+		
+		</form>
+		
+		<p id="rezultat"></p>
+		<p id="rezultatMulltiply"></p>
+				
+		<script>
+			
+			function aduna(){
+				var op1=parseFloat(document.getElementById("operand1").value);
+				var op2=parseFloat(document.getElementById("operand2").value);
+				var rez=op1+op2;
+							
+				document.getElementById("rezultat").innerHTML=rez.toString();
+			}
+			
+			function multiply(){
+				var op1=parseFloat(document.getElementById("operand1").value);
+				var op2=parseFloat(document.getElementById("operand2").value);
+				var mul=op1*op2;
+				
+				document.getElementById("rezultatMulltiply").innerHTML=mul.toString();
+			}
+		</script>
+	
+	</BODY>
+​
+</HTML>
+

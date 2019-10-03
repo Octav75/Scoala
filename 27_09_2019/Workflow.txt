@@ -1,0 +1,10 @@
+Create a pakage class
+Create a class "ClassApplication"
+Create a ClassModel class
+Create a ClassController class
+Create a ClassServiceImpl class
+Create a ClassService interface
+Create a ClassRepository interface
+Implement list of students in ... Student Controller
+
+

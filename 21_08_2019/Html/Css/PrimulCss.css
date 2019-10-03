@@ -1,0 +1,91 @@
+#primulDiv{
+	font-size:24px;
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+​
+.formatareDiv{
+	font-size: 24px;
+	background-color: pink;
+	color: blue;
+}
+
+label {
+	font-size: 24;
+	color red;
+}
+
+div{
+	border: magenta 5px solid;
+}
+
+input[type="button"]{
+	background-color: red;
+	color: green;
+	width:300px; 
+	height:60px;
+	
+	border-radius: 60px; 
+	padding: 6px;
+	margin: 20px;
+	
+}
+
+input[type="submit"]{
+	background-color: black;
+	color: yellow;
+}
+
+input[type="reset"]{
+	background-color: blue;
+	color: white;
+}
+
+H1, H2{
+	COLOR: blue;
+}
+
+div p{
+	color: green;
+}
+
+div>p {
+	color: black;
+}
+
+span>P{
+	color: blue;
+}
+
+div + p {
+	color: magenta;
+}
+
+textarea[cols="30"]{
+	background-image: url("../Images/OcHtml.jpg");
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="password"]{
+border: 2px blue dashed; 
+}   
+
+h1:hover h2{
+dysplay:none;
+}
+
+button:nth-child(2n){ /* iau elemente din 2 in doi (impare) */
+color: green;
+}
+
+button:before{
+content:"abc";
+color: red;
+}
+	
+
+
+
+
+
